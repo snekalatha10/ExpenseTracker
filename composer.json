@@ -1,0 +1,13 @@
+{
+    "name": "sneka/paisepocketonline",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Sneka\\expense\\": "src/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^v6.6.5",
+        "ext-mysqli": "*"
+    }
+}
